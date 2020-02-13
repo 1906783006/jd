@@ -1,0 +1,404 @@
+.w {
+    /* 设置版心 */
+    width: 1190px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+img {
+    vertical-align: top;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #999;
+}
+
+a:hover {
+    color: #e33333;
+}
+
+input,
+button {
+    border: 0;
+    outline: none;
+}
+
+ul,
+h1,
+h5,
+input,
+button,
+p,
+blockquote,
+dd,
+dl,
+dt,
+fieldset,
+form,
+legend,
+textarea {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.f10 {
+    color: #f10215!important;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?aengas');
+    src: url('../fonts/icomoon.eot?aengas#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?aengas') format('truetype'), url('../fonts/icomoon.woff?aengas') format('woff'), url('../fonts/icomoon.svg?aengas#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+
+/* header部分 */
+
+header {
+    height: 80px;
+    background-color: #112dac;
+}
+
+
+/* 快速导航栏部分start */
+
+.shortcut {
+    height: 30px;
+    background-color: #e3e4e5;
+    border-bottom: 1px solid #ddd;
+    line-height: 30px;
+}
+.shortcut li {
+    float: left;
+}
+
+.city a {
+    font-size: 12px;
+}
+
+.city a i {
+    font-size: 14px;
+    font-family: "icomoon";
+    font-style: normal;
+}
+.shortcut .fr i {
+    font-family: "icomoon";
+    font-style: normal;
+    color: #999;
+    font-size: 12px;
+}
+
+.space {
+    /* 小竖线 */
+    width: 1px;
+    height: 10px;
+    background-color: #ccc;
+    margin: 10px 12px 0;
+}
+
+/* 快速导航栏部分end */
+
+
+/* middle部分开始 */
+.middle {
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+    position: relative;
+    height: 140px;
+}
+.logo a {
+    display: block;
+    width: 190px;
+    height: 120px;
+}
+.logo a img {
+    width: 100%;
+}
+
+/* 搜索框部分 */
+
+.form {
+    position: absolute;
+    left: 260px;
+    top: 25px;
+    width: 552px;
+    height: 36px;
+    background-color: pink;
+}
+
+.form input {
+    width: 472px;
+    height: 32px;
+    border: 2px solid #f10215;
+    float: left;
+    font-size: 12px;
+    padding-left: 16px;
+}
+
+.form button {
+    width: 60px;
+    height: 36px;
+    background-color: #f10215;
+    float: left;
+    font-family: "icomoon";
+}
+
+.form button i {
+    font-style: normal;
+    color: #fff;
+    font-size: 18px;
+}
+
+
+/* 购物车部分 */
+
+.shopCar {
+    font-family: "icomoon";
+    position: absolute;
+    top: 25px;
+    right: 230px;
+    width: 130px;
+    height: 34px;
+    border: 1px solid #eee;
+    line-height: 34px;
+    text-align: center;
+}
+
+.shopCar a {
+    font-size: 14px;
+    color: #e6251b;
+}
+
+.shopCar i {
+    font-style: normal;
+    color: #e1251b;
+}
+
+.shopCar span {
+    position: absolute;
+    top: 2px;
+    right: 6px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #e1251b;
+    line-height: 15px;
+    color: #fff;
+    font-size: 12px;
+}
+
+
+/* 关键热词部分 */
+
+.hotwords {
+    position: absolute;
+    top: 68px;
+    left: 260px;
+}
+
+
+/* 小导航部分 */
+
+.navitems {
+    position: absolute;
+    bottom: 0;
+    left: 200px;
+    width: 770px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.navitems li {
+    float: left;
+    margin-left: 28px;
+}
+
+.navitems li a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #555;
+}
+
+.navitems li a:hover {
+    color: #f10215;
+}
+
+
+/* 超级电脑日部分 */
+
+.super {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+}
+
+.super img {
+    width: 190px;
+}
+
+
+footer {
+    height: 500px;
+    margin-top: 35px;
+}
+
+
+/* 服务部分 */
+
+.service {
+    padding: 30px 0;
+    overflow: hidden;
+    border-bottom: 1px solid #dedede;
+}
+
+.service ul li {
+    position: relative;
+    float: left;
+    width: 297px;
+    height: 43px;
+    line-height: 43px;
+    /* background-color: purple; */
+}
+
+.service li h5 {
+    position: absolute;
+    top: 0;
+    left: 38px;
+    width: 36px;
+    height: 42px;
+    background: url(../images/jingling.png) no-repeat 0 -192px;
+}
+
+.service li:nth-child(2) h5 {
+    background: url(../images/jingling.png) no-repeat -41px -192px;
+}
+
+.service li:nth-child(3) h5 {
+    background: url(../images/jingling.png) no-repeat -82px -192px;
+}
+
+.service li:nth-child(4) h5 {
+    background: url(../images/jingling.png) no-repeat -123px -192px;
+}
+
+.service li p {
+    font-weight: 700;
+    margin-left: 82px;
+}
+/* 帮助部分 */
+.help {
+    box-sizing: border-box;
+    height: 200px;
+    padding: 24px 0;
+    border-bottom: 1px solid #e1e1e1;
+}
+.help-l dl{
+    float: left;
+    width: 196px;
+}
+.help-l dt {
+    font-size: 14px;
+    color: #666;
+    font-weight: 600;
+    height: 28px;
+}
+.help dd {
+    height: 22px;
+}
+/* 帮助右侧部分 */
+.help-r {
+    width: 186px;
+    height: 152px;
+    background: url(../images/jingling.png) 0 0;
+    padding-right: 19px;
+}
+.help-r h5 {
+    display: block;
+    height: 36px;
+    font-size: 14px;
+    color: #666;
+    font-weight: 600;
+   
+}
+.help-r p {
+    line-height: 19px;
+    font-size: 12px;
+    color: #666;
+}
+.help-r a {
+    margin-top: 5px;
+    float: right;
+}
+/* 底部版权部分 */
+.copyright {
+    height: 138px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 19px;
+}
+.copyright a {
+    font-size: 12px;
+    color: #666;
+}
+.copyright a:hover {
+    color: #e01121;
+}
+.copyright span {
+    color: #d4ccd4;
+    margin: 0 5px;
+    font-size: 12px;
+}
+.copyright div {
+    margin-top: 18px;
+}
+.copyright div p {
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #999;
+}
+.foot-icon a{
+    /* 转化为行内块元素 */
+    display: inline-block;
+    margin-top: 10px;
+    width: 103px;
+    height: 32px;
+    background-color: pink;
+    /* 行内块可以用text-align对齐 */
+    text-align: center;
+    background: url(../images/jingling.png) -205px 0;
+}
+.foot-icon a:nth-child(2) {
+    background: url(../images/jingling.png) -205px -36px;
+}
+.foot-icon a:nth-child(3) {
+    background: url(../images/jingling.png) -205px -74px;
+}
+.foot-icon a:nth-child(4) {
+    background: url(../images/jingling.png) -205px -110px;
+}
+.foot-icon a:nth-child(5) {
+    background: url(../images/jingling.png) -205px -147px;
+}
+/* <!-- 页面底部分end --> */
+
+
+/* middle部分结束 */

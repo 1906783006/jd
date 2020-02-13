@@ -1,0 +1,233 @@
+/* 中间分类模块start */
+.grid {
+    height: 480px;
+    margin-top: 10px;
+}
+.grid-col1 {
+    width: 190px;
+    height: 100%;
+    background-color: #6e6568;
+    color: #fff;
+    font-size: 14px;
+}
+.grid-col1 a {
+    color: #fff;
+    font-size: 14px;
+    margin: 0 3px;
+}
+.grid-col1 a:hover {
+    color: #f10215;
+}
+.grid-col1 ul {
+    padding: 10px 0;
+}
+.grid-col1 ul li {
+    padding-left: 12px;
+    height: 29px;
+    line-height: 26px;
+}
+.grid-col1 ul li:hover {
+    background-color: #9c9698;
+}
+/* banner部分 */
+.grid-col2 {
+    width: 790px;
+    height: 100%;
+    margin-left: 10px;
+}
+.grid-col2-t {
+    position: relative;
+    width: 790px;
+    height: 340px;
+    background-color: skyblue;
+}
+.grid-col2-b div{
+    width: 390px;
+    height: 130px;
+    background-color: pink;
+    float: left;
+    margin-top: 10px;
+}
+.grid-col2-b div:last-child{
+    background-color: orange;
+    float: right;
+    margin-top: 10px;
+}
+/* 箭头部分 */
+.arrow-l,
+.arrow-r {
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.3);
+    transform: translateY(-50%);
+    text-align: center;
+    line-height: 60px;
+    font-size: 16px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.arrow-r {
+    right: 0;
+}
+/* 滑动栏部分 */
+.circle {
+    width: 167px;
+    height: 20px;
+    background-color: rgba(255, 255 ,255,0.3);
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    padding-left: 8px;
+}
+.circle li {
+    margin: 4px 4px 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+    float: left;
+    cursor: pointer;
+}
+.circle .current {
+    background-color: #f10215;
+}
+/* 中间分类模块end */
+/* 右边模块start */
+.grid-col3 {
+    width: 190px;
+    height: 100%;
+}
+/* 登录模块 */
+.login {
+    height: 85px;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+    padding: 15px;
+}
+.login-t {
+    position: relative;
+    width: 95px;
+    height: 60px;
+    line-height: 20px;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #666;
+    padding-left: 60px;
+}
+.login-t a {
+    color: #666;
+}
+.login-t a:hover {
+    color: #f10512;
+}
+.user-info {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid orange;
+}
+.user-info img {
+    width: 100%;
+}
+.login-b a{
+    display: inline-block;
+    width: 70px;
+    height: 20px;
+    line-height: 20px;
+    color: #f10215;
+    border: 2px solid #f10215;
+    margin-right: 3px;
+    text-align: center;
+}
+.login-b a:hover {
+    background-color: #f10215;
+    color: #fff;
+}
+/* 新闻模块 */
+.news {
+    height: 155px;
+    padding: 7px 13px 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+}
+.news-t {
+    position: relative;
+    height: 19px;
+    border-bottom: 1px solid #ccc;
+}
+.news-t a {
+    float: left;
+    height: 17px;
+    line-height: 17px;
+}
+.cuxiao {
+    height: 17px;
+    line-height: 17px;
+    width: 38px;
+    border-right: 1px solid #ccc;
+}
+.gg {
+    margin-left: 15px;
+}
+.news-t .more {
+    float: right;
+}
+.news-t div {
+    height: 2px;
+    width: 28px;
+    background-color: #f10215;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+}
+.news-b {
+    padding-top: 15px;
+}
+.news-b li {
+    height: 23px;
+    line-height: 23px;
+}
+/* 拓展模块 */
+.expand {
+    height: 208px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.expand ul {
+    /* expand,ul继承了父亲grid-col3的宽度190px,li放不开，设置ul宽度 */
+    width: 195px;
+}
+.expand li {
+    width: 47px;
+    height: 69px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    float: left;
+}
+.expand li a {
+    display: block;
+    padding-top: 15px;
+    text-align: center;
+}
+.expand li i {
+    display: block;
+    width: 18px;
+    height: 23px;
+    background-color: pink;
+    margin: 0 auto;
+    background: url(../images/jdjl.png) 0 0;
+    margin-bottom: 10px;
+}
+/* 右边模块end */
+/* <!-- 页面底部分start --> */
